@@ -1,0 +1,9 @@
+metric,value,unit,status
+Air Quality Index (Current),50.7,AQI,Moderate
+Energy Consumption (Today),3217.9,MWh,Normal
+Water Usage (Today),14896.0,Gallons,Normal
+Traffic Volume (Current),7934.0,Vehicles,Normal
+Crime Incidents (Today),15.0,Incidents,Normal
+Active Citizen Reports,162.0,Reports,Active
+Environmental Alerts,93.0,Alerts,Monitor
+Active Anomalies,58.0,Anomalies,Active

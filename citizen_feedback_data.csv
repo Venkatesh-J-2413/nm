@@ -1,0 +1,501 @@
+id,date_submitted,category,priority,status,description,citizen_satisfaction,response_time_hours,ward_number,is_anonymous
+1,2023-07-28,Parks & Recreation,Medium,Under Review,Sample feedback report #1 regarding city services,2,29.3,16,True
+2,2023-02-07,Parks & Recreation,Low,Resolved,Sample feedback report #2 regarding city services,4,29.3,5,False
+3,2023-03-16,Parks & Recreation,Medium,Resolved,Sample feedback report #3 regarding city services,5,86.6,9,False
+4,2023-07-30,Environmental Issues,Low,In Progress,Sample feedback report #4 regarding city services,4,9.3,9,False
+5,2023-12-20,Community Services,Medium,Resolved,Sample feedback report #5 regarding city services,4,2.3,2,False
+6,2023-05-26,Water Infrastructure,Low,Closed,Sample feedback report #6 regarding city services,1,49.0,16,True
+7,2023-02-25,Public Transport,High,Closed,Sample feedback report #7 regarding city services,3,90.1,15,True
+8,2023-11-05,Road Maintenance,Low,Closed,Sample feedback report #8 regarding city services,4,9.1,6,False
+9,2023-05-18,Public Transport,Medium,Under Review,Sample feedback report #9 regarding city services,4,8.4,17,True
+10,2023-08-19,Water Infrastructure,Medium,Under Review,Sample feedback report #10 regarding city services,3,2.3,12,True
+11,2023-04-07,Road Maintenance,Medium,Resolved,Sample feedback report #11 regarding city services,2,10.5,18,False
+12,2023-06-28,Environmental Issues,Low,Closed,Sample feedback report #12 regarding city services,4,7.8,12,False
+13,2023-04-21,Parks & Recreation,Low,In Progress,Sample feedback report #13 regarding city services,1,46.8,17,False
+14,2023-05-03,Water Infrastructure,Critical,Resolved,Sample feedback report #14 regarding city services,1,21.9,2,True
+15,2023-08-18,Road Maintenance,Low,Resolved,Sample feedback report #15 regarding city services,3,9.1,15,False
+16,2023-09-23,Road Maintenance,High,Under Review,Sample feedback report #16 regarding city services,4,52.6,16,False
+17,2023-11-25,Public Safety,Low,Under Review,Sample feedback report #17 regarding city services,5,33.6,7,False
+18,2023-09-07,Public Safety,High,Under Review,Sample feedback report #18 regarding city services,4,40.8,8,True
+19,2023-11-22,Community Services,Low,Submitted,Sample feedback report #19 regarding city services,3,18.7,17,False
+20,2023-12-09,Public Transport,Low,Resolved,Sample feedback report #20 regarding city services,2,16.6,13,True
+21,2023-11-23,Water Infrastructure,Low,In Progress,Sample feedback report #21 regarding city services,3,18.5,11,False
+22,2023-10-24,Water Infrastructure,High,Resolved,Sample feedback report #22 regarding city services,1,3.6,2,False
+23,2023-09-08,Water Infrastructure,Critical,Resolved,Sample feedback report #23 regarding city services,3,1.0,15,True
+24,2023-09-14,Public Safety,Low,Resolved,Sample feedback report #24 regarding city services,3,16.7,19,False
+25,2023-12-08,Traffic Management,Low,Under Review,Sample feedback report #25 regarding city services,5,53.6,11,True
+26,2023-07-21,Public Transport,Low,In Progress,Sample feedback report #26 regarding city services,5,19.9,18,False
+27,2023-09-24,Waste Management,High,Resolved,Sample feedback report #27 regarding city services,2,2.0,20,True
+28,2023-08-14,Waste Management,High,Resolved,Sample feedback report #28 regarding city services,1,12.7,18,True
+29,2023-05-01,Water Infrastructure,Low,Closed,Sample feedback report #29 regarding city services,1,1.0,8,False
+30,2023-03-19,Waste Management,Critical,Resolved,Sample feedback report #30 regarding city services,1,27.1,10,True
+31,2023-10-17,Waste Management,Low,Under Review,Sample feedback report #31 regarding city services,2,14.6,11,True
+32,2023-09-05,Water Infrastructure,Low,Resolved,Sample feedback report #32 regarding city services,4,50.2,19,False
+33,2023-04-22,Waste Management,High,In Progress,Sample feedback report #33 regarding city services,3,108.8,3,False
+34,2023-06-09,Energy & Utilities,Medium,Resolved,Sample feedback report #34 regarding city services,2,41.8,2,False
+35,2023-02-06,Environmental Issues,Low,Resolved,Sample feedback report #35 regarding city services,5,3.9,16,False
+36,2023-01-11,Environmental Issues,Medium,Under Review,Sample feedback report #36 regarding city services,3,39.7,16,True
+37,2023-07-18,Waste Management,Medium,Resolved,Sample feedback report #37 regarding city services,5,98.5,7,True
+38,2023-11-28,Water Infrastructure,Medium,Submitted,Sample feedback report #38 regarding city services,4,18.1,11,True
+39,2023-03-30,Public Transport,High,Under Review,Sample feedback report #39 regarding city services,4,2.8,16,True
+40,2023-04-22,Environmental Issues,Low,Resolved,Sample feedback report #40 regarding city services,3,5.3,9,True
+41,2023-01-15,Community Services,Low,Under Review,Sample feedback report #41 regarding city services,5,1.0,19,False
+42,2023-08-04,Road Maintenance,Critical,Resolved,Sample feedback report #42 regarding city services,4,10.2,14,False
+43,2023-08-30,Public Safety,Medium,Resolved,Sample feedback report #43 regarding city services,1,39.1,19,False
+44,2023-06-19,Parks & Recreation,Medium,Resolved,Sample feedback report #44 regarding city services,3,75.2,17,True
+45,2023-07-17,Public Transport,High,Resolved,Sample feedback report #45 regarding city services,4,5.2,9,False
+46,2023-03-23,Parks & Recreation,Low,Submitted,Sample feedback report #46 regarding city services,5,119.1,16,False
+47,2023-06-06,Energy & Utilities,Medium,In Progress,Sample feedback report #47 regarding city services,1,26.7,10,False
+48,2023-07-07,Community Services,Medium,Submitted,Sample feedback report #48 regarding city services,2,87.0,15,False
+49,2023-12-07,Water Infrastructure,Medium,Submitted,Sample feedback report #49 regarding city services,4,26.8,5,False
+50,2023-08-17,Environmental Issues,High,In Progress,Sample feedback report #50 regarding city services,5,49.0,16,True
+51,2023-12-20,Public Safety,Medium,In Progress,Sample feedback report #51 regarding city services,1,34.9,4,False
+52,2023-05-24,Public Transport,Low,Submitted,Sample feedback report #52 regarding city services,1,17.8,8,False
+53,2023-01-07,Road Maintenance,High,Resolved,Sample feedback report #53 regarding city services,1,44.4,6,True
+54,2023-04-24,Waste Management,Low,In Progress,Sample feedback report #54 regarding city services,1,4.0,8,False
+55,2023-04-26,Energy & Utilities,High,Closed,Sample feedback report #55 regarding city services,3,11.3,9,False
+56,2023-04-26,Public Safety,Low,Resolved,Sample feedback report #56 regarding city services,3,30.4,7,True
+57,2023-07-10,Water Infrastructure,Medium,Resolved,Sample feedback report #57 regarding city services,1,6.6,5,False
+58,2023-10-30,Public Transport,Low,In Progress,Sample feedback report #58 regarding city services,2,10.5,5,False
+59,2023-03-11,Road Maintenance,Medium,In Progress,Sample feedback report #59 regarding city services,1,82.9,9,False
+60,2023-09-23,Community Services,Medium,Under Review,Sample feedback report #60 regarding city services,1,14.7,10,False
+61,2023-12-27,Road Maintenance,Low,Closed,Sample feedback report #61 regarding city services,1,35.4,6,False
+62,2023-07-07,Waste Management,Medium,In Progress,Sample feedback report #62 regarding city services,1,3.6,18,True
+63,2023-05-19,Public Transport,Medium,Resolved,Sample feedback report #63 regarding city services,1,1.1,14,True
+64,2023-12-15,Parks & Recreation,Low,Resolved,Sample feedback report #64 regarding city services,5,64.3,11,False
+65,2023-01-08,Waste Management,High,Closed,Sample feedback report #65 regarding city services,5,5.0,8,True
+66,2023-12-06,Environmental Issues,Low,In Progress,Sample feedback report #66 regarding city services,3,13.2,16,True
+67,2023-06-07,Public Transport,Medium,Resolved,Sample feedback report #67 regarding city services,2,44.2,2,False
+68,2023-11-04,Community Services,Low,Resolved,Sample feedback report #68 regarding city services,5,52.8,13,False
+69,2023-11-13,Traffic Management,Medium,In Progress,Sample feedback report #69 regarding city services,1,1.1,17,False
+70,2023-10-21,Public Transport,Medium,In Progress,Sample feedback report #70 regarding city services,4,4.9,7,False
+71,2023-04-17,Water Infrastructure,Medium,Resolved,Sample feedback report #71 regarding city services,2,11.3,10,False
+72,2023-01-07,Community Services,Medium,Under Review,Sample feedback report #72 regarding city services,5,5.9,15,True
+73,2023-10-23,Energy & Utilities,Low,Submitted,Sample feedback report #73 regarding city services,4,15.9,12,False
+74,2023-11-17,Public Safety,Low,Resolved,Sample feedback report #74 regarding city services,2,18.6,1,False
+75,2023-09-19,Public Safety,Low,Under Review,Sample feedback report #75 regarding city services,4,5.6,1,True
+76,2023-11-10,Traffic Management,High,In Progress,Sample feedback report #76 regarding city services,2,1.0,10,False
+77,2023-12-10,Community Services,High,In Progress,Sample feedback report #77 regarding city services,3,1.2,4,False
+78,2023-06-28,Public Safety,Low,Resolved,Sample feedback report #78 regarding city services,5,8.6,4,False
+79,2023-11-02,Road Maintenance,Critical,Submitted,Sample feedback report #79 regarding city services,1,20.5,5,False
+80,2023-03-03,Waste Management,Medium,In Progress,Sample feedback report #80 regarding city services,3,81.5,11,True
+81,2023-09-24,Road Maintenance,Low,Resolved,Sample feedback report #81 regarding city services,5,64.7,11,True
+82,2023-09-04,Energy & Utilities,Medium,Submitted,Sample feedback report #82 regarding city services,2,11.2,5,True
+83,2023-06-29,Environmental Issues,Medium,Closed,Sample feedback report #83 regarding city services,2,83.6,9,False
+84,2023-10-22,Public Transport,Low,Submitted,Sample feedback report #84 regarding city services,2,2.6,18,False
+85,2023-08-25,Energy & Utilities,High,In Progress,Sample feedback report #85 regarding city services,3,13.6,19,True
+86,2023-10-23,Road Maintenance,Low,In Progress,Sample feedback report #86 regarding city services,1,49.5,15,True
+87,2023-05-08,Community Services,Medium,Submitted,Sample feedback report #87 regarding city services,1,51.7,20,False
+88,2023-03-24,Public Transport,Medium,Resolved,Sample feedback report #88 regarding city services,5,15.9,20,False
+89,2023-05-22,Environmental Issues,Medium,Resolved,Sample feedback report #89 regarding city services,1,32.2,2,True
+90,2023-11-11,Waste Management,High,Resolved,Sample feedback report #90 regarding city services,3,23.6,9,False
+91,2023-02-04,Traffic Management,High,Resolved,Sample feedback report #91 regarding city services,2,17.8,11,False
+92,2023-02-28,Environmental Issues,Low,Resolved,Sample feedback report #92 regarding city services,3,18.7,11,False
+93,2023-09-29,Public Transport,High,In Progress,Sample feedback report #93 regarding city services,5,39.8,1,False
+94,2023-05-26,Road Maintenance,Medium,In Progress,Sample feedback report #94 regarding city services,5,3.4,16,False
+95,2023-04-28,Public Safety,Low,Closed,Sample feedback report #95 regarding city services,5,14.1,8,False
+96,2023-06-05,Waste Management,Low,Submitted,Sample feedback report #96 regarding city services,5,7.8,4,True
+97,2023-06-03,Road Maintenance,Medium,Resolved,Sample feedback report #97 regarding city services,1,39.1,17,False
+98,2023-11-05,Public Transport,Low,Under Review,Sample feedback report #98 regarding city services,4,13.7,11,False
+99,2023-07-14,Traffic Management,Low,In Progress,Sample feedback report #99 regarding city services,1,25.0,7,False
+100,2023-08-13,Parks & Recreation,High,In Progress,Sample feedback report #100 regarding city services,3,21.6,15,True
+101,2023-05-01,Public Safety,Medium,Under Review,Sample feedback report #101 regarding city services,3,47.5,17,True
+102,2023-08-19,Environmental Issues,High,In Progress,Sample feedback report #102 regarding city services,5,3.2,10,False
+103,2023-08-24,Traffic Management,Medium,In Progress,Sample feedback report #103 regarding city services,4,1.0,17,False
+104,2023-09-06,Public Transport,High,Resolved,Sample feedback report #104 regarding city services,4,12.8,10,False
+105,2023-04-30,Water Infrastructure,High,In Progress,Sample feedback report #105 regarding city services,4,1.8,15,False
+106,2023-12-01,Community Services,Medium,Submitted,Sample feedback report #106 regarding city services,3,5.5,9,False
+107,2023-12-18,Public Safety,Low,In Progress,Sample feedback report #107 regarding city services,2,4.2,6,False
+108,2023-03-01,Parks & Recreation,Low,In Progress,Sample feedback report #108 regarding city services,2,8.3,1,False
+109,2023-06-07,Energy & Utilities,Low,In Progress,Sample feedback report #109 regarding city services,2,22.3,2,False
+110,2023-04-07,Energy & Utilities,Medium,In Progress,Sample feedback report #110 regarding city services,1,17.3,15,False
+111,2023-01-08,Public Transport,Medium,In Progress,Sample feedback report #111 regarding city services,2,14.7,16,False
+112,2023-06-06,Environmental Issues,High,Under Review,Sample feedback report #112 regarding city services,5,25.3,18,False
+113,2023-10-04,Energy & Utilities,Low,Resolved,Sample feedback report #113 regarding city services,3,6.0,1,False
+114,2023-05-24,Parks & Recreation,High,Closed,Sample feedback report #114 regarding city services,5,14.0,7,False
+115,2023-06-13,Environmental Issues,Medium,Resolved,Sample feedback report #115 regarding city services,5,49.4,15,False
+116,2023-03-24,Parks & Recreation,Medium,Under Review,Sample feedback report #116 regarding city services,4,18.5,15,False
+117,2023-06-18,Energy & Utilities,High,Under Review,Sample feedback report #117 regarding city services,5,26.7,20,False
+118,2023-04-21,Water Infrastructure,Low,In Progress,Sample feedback report #118 regarding city services,2,52.5,13,False
+119,2023-01-13,Parks & Recreation,Low,In Progress,Sample feedback report #119 regarding city services,5,18.3,11,False
+120,2023-03-17,Environmental Issues,High,Resolved,Sample feedback report #120 regarding city services,1,21.0,3,False
+121,2023-10-26,Water Infrastructure,Low,Resolved,Sample feedback report #121 regarding city services,3,20.0,10,True
+122,2023-02-23,Traffic Management,Low,Under Review,Sample feedback report #122 regarding city services,5,5.3,4,True
+123,2023-03-28,Public Safety,Low,Resolved,Sample feedback report #123 regarding city services,1,5.5,1,False
+124,2023-07-17,Waste Management,Low,Resolved,Sample feedback report #124 regarding city services,1,29.4,1,False
+125,2023-08-27,Road Maintenance,High,Submitted,Sample feedback report #125 regarding city services,2,2.6,20,False
+126,2023-08-27,Community Services,Medium,Under Review,Sample feedback report #126 regarding city services,3,59.6,5,False
+127,2023-12-21,Waste Management,Medium,Closed,Sample feedback report #127 regarding city services,1,15.3,1,False
+128,2023-10-02,Traffic Management,Low,Resolved,Sample feedback report #128 regarding city services,2,24.6,3,False
+129,2023-12-25,Traffic Management,Medium,Under Review,Sample feedback report #129 regarding city services,4,35.9,19,False
+130,2023-12-22,Road Maintenance,Medium,In Progress,Sample feedback report #130 regarding city services,3,48.2,2,False
+131,2023-01-01,Parks & Recreation,Low,Submitted,Sample feedback report #131 regarding city services,5,5.1,13,False
+132,2023-03-14,Water Infrastructure,Low,Under Review,Sample feedback report #132 regarding city services,4,6.1,12,True
+133,2023-05-18,Public Transport,Low,In Progress,Sample feedback report #133 regarding city services,1,12.0,8,False
+134,2023-12-16,Waste Management,Low,Resolved,Sample feedback report #134 regarding city services,4,3.5,18,False
+135,2023-01-18,Road Maintenance,Low,Submitted,Sample feedback report #135 regarding city services,2,12.3,15,False
+136,2023-05-13,Public Transport,Low,Under Review,Sample feedback report #136 regarding city services,5,5.0,13,True
+137,2023-10-12,Traffic Management,Low,Under Review,Sample feedback report #137 regarding city services,1,3.8,6,True
+138,2023-07-28,Public Safety,Medium,In Progress,Sample feedback report #138 regarding city services,5,42.1,5,False
+139,2023-09-22,Energy & Utilities,Medium,Submitted,Sample feedback report #139 regarding city services,4,14.0,17,False
+140,2023-12-28,Public Safety,Low,Resolved,Sample feedback report #140 regarding city services,1,100.6,14,False
+141,2023-08-31,Community Services,Medium,Resolved,Sample feedback report #141 regarding city services,3,7.5,11,False
+142,2023-07-08,Water Infrastructure,High,Submitted,Sample feedback report #142 regarding city services,1,29.7,6,True
+143,2023-10-09,Energy & Utilities,Medium,Resolved,Sample feedback report #143 regarding city services,1,11.2,19,False
+144,2023-05-22,Water Infrastructure,Medium,Under Review,Sample feedback report #144 regarding city services,5,9.7,8,False
+145,2023-12-02,Traffic Management,Low,Under Review,Sample feedback report #145 regarding city services,3,1.2,4,False
+146,2023-10-08,Parks & Recreation,Low,Closed,Sample feedback report #146 regarding city services,4,33.2,7,False
+147,2023-07-05,Energy & Utilities,Medium,Submitted,Sample feedback report #147 regarding city services,1,4.6,19,False
+148,2023-08-21,Water Infrastructure,Medium,Under Review,Sample feedback report #148 regarding city services,5,35.2,1,False
+149,2023-10-04,Parks & Recreation,High,Resolved,Sample feedback report #149 regarding city services,3,40.9,13,True
+150,2023-04-28,Road Maintenance,Medium,Resolved,Sample feedback report #150 regarding city services,3,5.1,4,False
+151,2023-03-14,Public Transport,High,In Progress,Sample feedback report #151 regarding city services,1,3.1,11,False
+152,2023-08-29,Community Services,Medium,Resolved,Sample feedback report #152 regarding city services,2,2.5,4,True
+153,2023-10-03,Environmental Issues,Critical,Closed,Sample feedback report #153 regarding city services,4,1.2,14,False
+154,2023-01-29,Public Safety,Medium,Resolved,Sample feedback report #154 regarding city services,5,11.8,8,True
+155,2023-05-02,Public Safety,Low,Resolved,Sample feedback report #155 regarding city services,5,53.5,19,False
+156,2023-10-16,Public Transport,Low,Resolved,Sample feedback report #156 regarding city services,2,73.3,11,True
+157,2023-01-16,Public Safety,Medium,In Progress,Sample feedback report #157 regarding city services,1,22.6,14,False
+158,2023-08-07,Traffic Management,High,Resolved,Sample feedback report #158 regarding city services,5,42.8,20,False
+159,2023-12-02,Environmental Issues,Low,In Progress,Sample feedback report #159 regarding city services,3,6.4,19,False
+160,2023-01-20,Public Safety,Critical,Closed,Sample feedback report #160 regarding city services,2,11.3,6,False
+161,2023-02-19,Waste Management,Low,Closed,Sample feedback report #161 regarding city services,2,22.9,11,False
+162,2023-10-16,Community Services,Low,Resolved,Sample feedback report #162 regarding city services,5,53.1,9,False
+163,2023-10-04,Parks & Recreation,Low,Resolved,Sample feedback report #163 regarding city services,2,9.5,20,False
+164,2023-06-29,Energy & Utilities,Medium,Under Review,Sample feedback report #164 regarding city services,1,9.2,4,True
+165,2023-08-28,Traffic Management,Medium,In Progress,Sample feedback report #165 regarding city services,5,18.8,3,True
+166,2023-12-29,Community Services,Low,Resolved,Sample feedback report #166 regarding city services,3,1.0,14,False
+167,2023-10-08,Public Transport,Medium,Under Review,Sample feedback report #167 regarding city services,4,53.5,18,False
+168,2023-08-08,Public Transport,Medium,In Progress,Sample feedback report #168 regarding city services,2,16.1,2,False
+169,2023-02-02,Public Transport,Medium,Resolved,Sample feedback report #169 regarding city services,1,1.0,15,False
+170,2023-07-02,Road Maintenance,Low,Submitted,Sample feedback report #170 regarding city services,4,1.0,14,False
+171,2023-04-13,Public Transport,Medium,In Progress,Sample feedback report #171 regarding city services,2,14.4,10,False
+172,2023-05-21,Community Services,High,Under Review,Sample feedback report #172 regarding city services,1,5.8,10,False
+173,2023-12-01,Public Transport,Low,In Progress,Sample feedback report #173 regarding city services,1,44.5,14,True
+174,2023-11-22,Energy & Utilities,Low,Under Review,Sample feedback report #174 regarding city services,5,15.4,8,False
+175,2023-12-01,Energy & Utilities,Low,Resolved,Sample feedback report #175 regarding city services,2,13.2,18,False
+176,2023-03-16,Environmental Issues,Medium,Closed,Sample feedback report #176 regarding city services,1,68.3,17,True
+177,2023-11-28,Parks & Recreation,Medium,Resolved,Sample feedback report #177 regarding city services,1,17.7,8,False
+178,2023-06-24,Waste Management,Medium,Under Review,Sample feedback report #178 regarding city services,1,18.1,3,True
+179,2023-03-16,Community Services,Medium,In Progress,Sample feedback report #179 regarding city services,2,31.8,11,False
+180,2023-01-27,Parks & Recreation,Medium,Resolved,Sample feedback report #180 regarding city services,5,19.5,8,True
+181,2023-09-16,Public Transport,Low,Under Review,Sample feedback report #181 regarding city services,2,10.5,18,False
+182,2023-11-02,Public Transport,High,Resolved,Sample feedback report #182 regarding city services,4,1.9,4,False
+183,2023-10-31,Water Infrastructure,Low,Resolved,Sample feedback report #183 regarding city services,5,31.0,9,False
+184,2023-09-29,Public Safety,Medium,Submitted,Sample feedback report #184 regarding city services,4,28.6,14,False
+185,2023-03-25,Environmental Issues,Low,Closed,Sample feedback report #185 regarding city services,3,13.8,2,True
+186,2023-07-03,Community Services,Medium,Resolved,Sample feedback report #186 regarding city services,1,5.2,15,True
+187,2023-11-24,Environmental Issues,Low,Closed,Sample feedback report #187 regarding city services,4,4.5,1,False
+188,2023-10-27,Public Transport,High,Resolved,Sample feedback report #188 regarding city services,2,54.8,18,False
+189,2023-09-29,Public Transport,High,Resolved,Sample feedback report #189 regarding city services,2,22.8,10,False
+190,2023-08-14,Public Safety,Medium,Resolved,Sample feedback report #190 regarding city services,3,26.8,12,False
+191,2023-11-09,Traffic Management,Medium,Resolved,Sample feedback report #191 regarding city services,2,1.0,9,False
+192,2023-08-30,Road Maintenance,Medium,Under Review,Sample feedback report #192 regarding city services,1,10.6,20,False
+193,2023-04-29,Road Maintenance,Low,In Progress,Sample feedback report #193 regarding city services,5,1.4,17,True
+194,2023-03-08,Community Services,Low,Resolved,Sample feedback report #194 regarding city services,4,11.4,11,True
+195,2023-03-29,Environmental Issues,Low,Resolved,Sample feedback report #195 regarding city services,4,15.0,6,False
+196,2023-07-21,Environmental Issues,High,In Progress,Sample feedback report #196 regarding city services,3,1.0,8,False
+197,2023-12-04,Public Safety,High,In Progress,Sample feedback report #197 regarding city services,2,29.7,19,False
+198,2023-03-11,Public Transport,Medium,Closed,Sample feedback report #198 regarding city services,5,5.5,16,True
+199,2023-03-05,Public Transport,Medium,Resolved,Sample feedback report #199 regarding city services,5,21.8,20,False
+200,2023-10-18,Water Infrastructure,Medium,Resolved,Sample feedback report #200 regarding city services,2,6.7,6,False
+201,2023-07-21,Water Infrastructure,High,Under Review,Sample feedback report #201 regarding city services,1,54.5,7,False
+202,2023-07-07,Parks & Recreation,Medium,In Progress,Sample feedback report #202 regarding city services,1,7.5,14,True
+203,2023-07-14,Environmental Issues,Critical,Resolved,Sample feedback report #203 regarding city services,5,14.1,13,True
+204,2023-11-28,Road Maintenance,Medium,Submitted,Sample feedback report #204 regarding city services,4,33.4,10,False
+205,2023-06-10,Energy & Utilities,Medium,Resolved,Sample feedback report #205 regarding city services,4,16.8,2,False
+206,2023-05-25,Community Services,Low,Resolved,Sample feedback report #206 regarding city services,3,11.5,15,False
+207,2023-05-10,Public Safety,Low,In Progress,Sample feedback report #207 regarding city services,1,20.2,2,False
+208,2023-05-18,Public Safety,Medium,Resolved,Sample feedback report #208 regarding city services,2,5.7,18,False
+209,2023-02-26,Traffic Management,Medium,Closed,Sample feedback report #209 regarding city services,2,8.9,3,False
+210,2023-07-21,Community Services,Medium,Under Review,Sample feedback report #210 regarding city services,4,62.7,3,False
+211,2023-04-22,Waste Management,Medium,In Progress,Sample feedback report #211 regarding city services,3,51.7,13,False
+212,2023-07-04,Parks & Recreation,Critical,Resolved,Sample feedback report #212 regarding city services,4,7.0,12,True
+213,2023-10-25,Water Infrastructure,High,Under Review,Sample feedback report #213 regarding city services,4,54.6,18,False
+214,2023-02-18,Public Safety,High,Resolved,Sample feedback report #214 regarding city services,3,7.6,3,True
+215,2023-09-21,Public Transport,Low,Resolved,Sample feedback report #215 regarding city services,3,1.0,4,False
+216,2023-12-16,Road Maintenance,Low,In Progress,Sample feedback report #216 regarding city services,2,14.2,20,False
+217,2023-10-13,Traffic Management,Medium,Under Review,Sample feedback report #217 regarding city services,2,23.0,9,True
+218,2023-12-03,Environmental Issues,High,Resolved,Sample feedback report #218 regarding city services,3,8.6,14,False
+219,2023-06-01,Public Safety,Medium,In Progress,Sample feedback report #219 regarding city services,5,63.8,9,False
+220,2023-12-03,Public Safety,Low,Resolved,Sample feedback report #220 regarding city services,2,8.1,16,False
+221,2023-01-27,Parks & Recreation,Medium,Under Review,Sample feedback report #221 regarding city services,3,28.7,1,False
+222,2023-06-25,Parks & Recreation,High,In Progress,Sample feedback report #222 regarding city services,3,2.8,11,False
+223,2023-07-16,Waste Management,High,Submitted,Sample feedback report #223 regarding city services,4,1.0,8,True
+224,2023-01-17,Traffic Management,Low,Closed,Sample feedback report #224 regarding city services,3,12.3,19,False
+225,2023-04-17,Environmental Issues,Low,Resolved,Sample feedback report #225 regarding city services,3,12.0,8,False
+226,2023-07-25,Road Maintenance,Low,Under Review,Sample feedback report #226 regarding city services,2,10.8,13,False
+227,2023-04-05,Traffic Management,Medium,Under Review,Sample feedback report #227 regarding city services,2,18.6,15,False
+228,2023-09-27,Energy & Utilities,High,Under Review,Sample feedback report #228 regarding city services,1,14.6,4,False
+229,2023-03-08,Public Safety,High,Resolved,Sample feedback report #229 regarding city services,1,25.5,11,True
+230,2023-03-21,Public Transport,Low,In Progress,Sample feedback report #230 regarding city services,1,1.6,6,True
+231,2023-01-11,Energy & Utilities,Medium,In Progress,Sample feedback report #231 regarding city services,2,2.4,1,False
+232,2023-01-30,Road Maintenance,Low,In Progress,Sample feedback report #232 regarding city services,4,24.7,14,False
+233,2023-02-19,Traffic Management,Low,Under Review,Sample feedback report #233 regarding city services,4,9.4,16,False
+234,2023-03-22,Public Transport,High,Under Review,Sample feedback report #234 regarding city services,4,65.6,3,False
+235,2023-01-02,Public Safety,Low,Resolved,Sample feedback report #235 regarding city services,1,7.8,6,False
+236,2023-08-14,Public Transport,Low,Resolved,Sample feedback report #236 regarding city services,1,9.0,12,False
+237,2023-10-28,Waste Management,High,Resolved,Sample feedback report #237 regarding city services,2,11.5,1,True
+238,2023-08-28,Environmental Issues,High,Resolved,Sample feedback report #238 regarding city services,5,40.3,4,True
+239,2023-07-16,Public Transport,Low,In Progress,Sample feedback report #239 regarding city services,4,8.5,1,True
+240,2023-02-06,Public Safety,Medium,Closed,Sample feedback report #240 regarding city services,5,15.8,15,False
+241,2023-01-13,Road Maintenance,Low,In Progress,Sample feedback report #241 regarding city services,3,30.7,10,True
+242,2023-07-05,Water Infrastructure,Medium,In Progress,Sample feedback report #242 regarding city services,4,3.6,5,True
+243,2023-10-27,Public Safety,High,Under Review,Sample feedback report #243 regarding city services,4,21.3,16,True
+244,2023-01-04,Parks & Recreation,Critical,Resolved,Sample feedback report #244 regarding city services,5,49.8,6,False
+245,2023-07-17,Parks & Recreation,Medium,Closed,Sample feedback report #245 regarding city services,4,1.0,9,False
+246,2023-12-06,Water Infrastructure,High,Under Review,Sample feedback report #246 regarding city services,1,4.8,14,True
+247,2023-12-15,Traffic Management,Low,Resolved,Sample feedback report #247 regarding city services,5,10.1,19,False
+248,2023-05-22,Energy & Utilities,Medium,Resolved,Sample feedback report #248 regarding city services,2,27.4,9,True
+249,2023-12-28,Community Services,Low,Resolved,Sample feedback report #249 regarding city services,4,5.2,17,False
+250,2023-11-23,Water Infrastructure,Low,Closed,Sample feedback report #250 regarding city services,4,1.0,4,True
+251,2023-12-24,Public Safety,Low,Under Review,Sample feedback report #251 regarding city services,5,23.2,6,False
+252,2023-02-14,Public Safety,Low,Under Review,Sample feedback report #252 regarding city services,5,50.8,10,True
+253,2023-06-02,Waste Management,High,Submitted,Sample feedback report #253 regarding city services,1,7.1,18,False
+254,2023-12-06,Environmental Issues,Low,Resolved,Sample feedback report #254 regarding city services,3,7.7,13,True
+255,2023-02-23,Traffic Management,Medium,In Progress,Sample feedback report #255 regarding city services,4,60.9,7,True
+256,2023-11-05,Water Infrastructure,Low,Closed,Sample feedback report #256 regarding city services,2,34.2,2,True
+257,2023-08-08,Environmental Issues,Medium,Resolved,Sample feedback report #257 regarding city services,2,5.1,12,False
+258,2023-08-03,Water Infrastructure,Medium,Under Review,Sample feedback report #258 regarding city services,3,6.5,16,True
+259,2023-01-16,Parks & Recreation,Medium,Resolved,Sample feedback report #259 regarding city services,5,8.3,5,False
+260,2023-01-06,Parks & Recreation,Low,Resolved,Sample feedback report #260 regarding city services,5,6.6,17,False
+261,2023-03-27,Public Transport,Low,Resolved,Sample feedback report #261 regarding city services,3,1.8,18,False
+262,2023-08-12,Public Transport,Medium,Resolved,Sample feedback report #262 regarding city services,5,33.4,4,True
+263,2023-11-07,Waste Management,Medium,Submitted,Sample feedback report #263 regarding city services,5,5.2,15,False
+264,2023-07-21,Waste Management,High,Resolved,Sample feedback report #264 regarding city services,1,11.9,14,False
+265,2023-03-02,Environmental Issues,High,Closed,Sample feedback report #265 regarding city services,2,28.6,8,False
+266,2023-08-05,Public Safety,Medium,Resolved,Sample feedback report #266 regarding city services,3,7.0,5,True
+267,2023-10-17,Public Transport,Medium,Resolved,Sample feedback report #267 regarding city services,1,41.5,4,False
+268,2023-03-11,Traffic Management,Low,In Progress,Sample feedback report #268 regarding city services,1,19.8,4,False
+269,2023-03-30,Public Transport,Medium,Closed,Sample feedback report #269 regarding city services,3,7.1,4,False
+270,2023-02-07,Environmental Issues,Medium,Resolved,Sample feedback report #270 regarding city services,1,31.0,10,False
+271,2023-12-14,Water Infrastructure,Low,Resolved,Sample feedback report #271 regarding city services,2,7.9,9,False
+272,2023-12-21,Traffic Management,Low,Submitted,Sample feedback report #272 regarding city services,3,7.5,19,True
+273,2023-02-17,Traffic Management,High,Under Review,Sample feedback report #273 regarding city services,3,24.7,11,False
+274,2023-01-10,Energy & Utilities,Critical,Resolved,Sample feedback report #274 regarding city services,5,3.7,18,False
+275,2023-02-22,Traffic Management,High,In Progress,Sample feedback report #275 regarding city services,3,9.5,19,False
+276,2023-10-10,Waste Management,Medium,Resolved,Sample feedback report #276 regarding city services,5,1.1,8,False
+277,2023-01-29,Energy & Utilities,Low,Under Review,Sample feedback report #277 regarding city services,2,1.1,8,False
+278,2023-08-22,Public Transport,Low,Resolved,Sample feedback report #278 regarding city services,4,41.9,20,False
+279,2023-03-28,Environmental Issues,Low,Resolved,Sample feedback report #279 regarding city services,1,1.0,3,False
+280,2023-07-03,Waste Management,Medium,Resolved,Sample feedback report #280 regarding city services,1,57.4,2,True
+281,2023-05-31,Public Safety,Low,Closed,Sample feedback report #281 regarding city services,2,5.5,11,False
+282,2023-11-26,Road Maintenance,Medium,Closed,Sample feedback report #282 regarding city services,2,5.1,3,False
+283,2023-12-18,Parks & Recreation,High,Closed,Sample feedback report #283 regarding city services,1,10.5,2,False
+284,2023-05-27,Parks & Recreation,Medium,In Progress,Sample feedback report #284 regarding city services,4,4.0,19,True
+285,2023-03-28,Community Services,Low,Resolved,Sample feedback report #285 regarding city services,4,9.5,12,False
+286,2023-02-11,Environmental Issues,Medium,In Progress,Sample feedback report #286 regarding city services,2,38.8,8,False
+287,2023-07-05,Environmental Issues,Medium,Resolved,Sample feedback report #287 regarding city services,4,104.0,17,True
+288,2023-03-27,Public Safety,High,Under Review,Sample feedback report #288 regarding city services,4,3.6,5,True
+289,2023-09-21,Community Services,Medium,Resolved,Sample feedback report #289 regarding city services,3,1.0,14,False
+290,2023-08-21,Waste Management,High,Resolved,Sample feedback report #290 regarding city services,1,1.4,1,False
+291,2023-05-05,Public Transport,Low,In Progress,Sample feedback report #291 regarding city services,4,128.1,8,False
+292,2023-02-04,Waste Management,Low,Resolved,Sample feedback report #292 regarding city services,4,2.6,8,False
+293,2023-11-15,Public Transport,Low,Resolved,Sample feedback report #293 regarding city services,1,39.2,6,False
+294,2023-08-05,Road Maintenance,Low,Closed,Sample feedback report #294 regarding city services,2,6.7,3,False
+295,2023-01-02,Parks & Recreation,Low,Resolved,Sample feedback report #295 regarding city services,4,30.1,20,True
+296,2023-10-19,Community Services,High,Closed,Sample feedback report #296 regarding city services,2,22.3,1,True
+297,2023-12-26,Parks & Recreation,Medium,Under Review,Sample feedback report #297 regarding city services,1,46.0,13,True
+298,2023-07-06,Parks & Recreation,Medium,Resolved,Sample feedback report #298 regarding city services,2,1.3,7,False
+299,2023-02-09,Road Maintenance,Low,Resolved,Sample feedback report #299 regarding city services,1,24.1,20,False
+300,2023-04-22,Public Transport,Medium,Under Review,Sample feedback report #300 regarding city services,5,1.6,5,False
+301,2023-05-14,Traffic Management,Medium,Closed,Sample feedback report #301 regarding city services,5,7.6,6,True
+302,2023-07-22,Road Maintenance,Medium,Resolved,Sample feedback report #302 regarding city services,4,30.2,5,False
+303,2023-06-17,Energy & Utilities,High,Closed,Sample feedback report #303 regarding city services,3,1.0,9,True
+304,2023-02-03,Community Services,Medium,Resolved,Sample feedback report #304 regarding city services,4,7.2,17,True
+305,2023-02-02,Environmental Issues,Medium,Under Review,Sample feedback report #305 regarding city services,2,11.8,7,False
+306,2023-10-27,Public Safety,Low,In Progress,Sample feedback report #306 regarding city services,2,12.9,7,False
+307,2023-03-03,Public Safety,Low,In Progress,Sample feedback report #307 regarding city services,5,9.3,19,False
+308,2023-09-09,Waste Management,High,In Progress,Sample feedback report #308 regarding city services,4,35.6,2,False
+309,2023-11-22,Public Transport,Medium,Resolved,Sample feedback report #309 regarding city services,5,66.5,2,True
+310,2023-05-09,Waste Management,High,Resolved,Sample feedback report #310 regarding city services,4,10.1,16,False
+311,2023-05-08,Road Maintenance,Low,Submitted,Sample feedback report #311 regarding city services,4,9.1,18,False
+312,2023-02-21,Waste Management,Medium,In Progress,Sample feedback report #312 regarding city services,2,26.3,3,False
+313,2023-06-01,Waste Management,Medium,In Progress,Sample feedback report #313 regarding city services,4,7.2,12,False
+314,2023-12-04,Traffic Management,Low,Resolved,Sample feedback report #314 regarding city services,3,1.4,20,False
+315,2023-01-26,Water Infrastructure,Medium,Submitted,Sample feedback report #315 regarding city services,1,34.6,9,False
+316,2023-07-29,Community Services,Medium,Resolved,Sample feedback report #316 regarding city services,3,17.8,20,True
+317,2023-01-12,Waste Management,Low,Resolved,Sample feedback report #317 regarding city services,2,8.9,6,True
+318,2023-01-21,Parks & Recreation,Critical,In Progress,Sample feedback report #318 regarding city services,4,12.7,14,False
+319,2023-09-01,Road Maintenance,High,Resolved,Sample feedback report #319 regarding city services,5,5.3,17,False
+320,2023-10-15,Community Services,Medium,Resolved,Sample feedback report #320 regarding city services,1,16.9,6,False
+321,2023-01-27,Waste Management,Medium,In Progress,Sample feedback report #321 regarding city services,1,6.7,18,True
+322,2023-04-10,Environmental Issues,Low,Submitted,Sample feedback report #322 regarding city services,5,14.1,12,False
+323,2023-01-05,Traffic Management,High,In Progress,Sample feedback report #323 regarding city services,5,26.0,10,False
+324,2023-03-01,Parks & Recreation,Low,In Progress,Sample feedback report #324 regarding city services,4,16.6,13,True
+325,2023-07-07,Parks & Recreation,Low,In Progress,Sample feedback report #325 regarding city services,3,45.0,2,False
+326,2023-04-10,Energy & Utilities,Low,Closed,Sample feedback report #326 regarding city services,2,24.8,10,True
+327,2023-11-19,Public Safety,Low,Resolved,Sample feedback report #327 regarding city services,5,11.5,12,True
+328,2023-12-23,Road Maintenance,Low,Resolved,Sample feedback report #328 regarding city services,4,12.3,7,True
+329,2023-03-29,Parks & Recreation,High,In Progress,Sample feedback report #329 regarding city services,3,20.7,19,False
+330,2023-08-06,Public Safety,Medium,In Progress,Sample feedback report #330 regarding city services,4,11.6,16,False
+331,2023-01-14,Waste Management,Medium,In Progress,Sample feedback report #331 regarding city services,5,23.1,9,False
+332,2023-01-25,Water Infrastructure,Critical,Resolved,Sample feedback report #332 regarding city services,5,3.1,14,False
+333,2023-05-24,Traffic Management,Medium,Resolved,Sample feedback report #333 regarding city services,5,13.4,13,False
+334,2023-05-28,Traffic Management,Medium,Submitted,Sample feedback report #334 regarding city services,4,50.8,4,False
+335,2023-06-08,Public Safety,Medium,In Progress,Sample feedback report #335 regarding city services,1,2.8,13,False
+336,2023-03-12,Parks & Recreation,Medium,Resolved,Sample feedback report #336 regarding city services,3,61.0,4,False
+337,2023-10-18,Parks & Recreation,High,Resolved,Sample feedback report #337 regarding city services,4,87.3,18,False
+338,2023-08-19,Parks & Recreation,Medium,In Progress,Sample feedback report #338 regarding city services,4,25.3,10,True
+339,2023-09-18,Traffic Management,Low,In Progress,Sample feedback report #339 regarding city services,1,3.3,10,False
+340,2023-05-13,Public Safety,Low,Under Review,Sample feedback report #340 regarding city services,3,40.6,2,True
+341,2023-04-06,Community Services,Medium,Closed,Sample feedback report #341 regarding city services,2,17.8,8,True
+342,2023-05-22,Traffic Management,Critical,Resolved,Sample feedback report #342 regarding city services,1,54.3,6,True
+343,2023-08-14,Energy & Utilities,High,Submitted,Sample feedback report #343 regarding city services,3,7.5,16,False
+344,2023-05-18,Energy & Utilities,High,Under Review,Sample feedback report #344 regarding city services,3,15.1,9,False
+345,2023-12-03,Energy & Utilities,Low,Resolved,Sample feedback report #345 regarding city services,5,25.4,16,False
+346,2023-07-03,Public Safety,Critical,Resolved,Sample feedback report #346 regarding city services,5,35.7,6,False
+347,2023-07-14,Public Safety,Low,Resolved,Sample feedback report #347 regarding city services,1,5.7,11,False
+348,2023-10-07,Parks & Recreation,Medium,Under Review,Sample feedback report #348 regarding city services,4,1.2,6,False
+349,2023-03-21,Environmental Issues,Medium,Resolved,Sample feedback report #349 regarding city services,1,20.9,13,True
+350,2023-11-19,Public Safety,Medium,Resolved,Sample feedback report #350 regarding city services,1,25.1,6,False
+351,2023-02-26,Traffic Management,Medium,Under Review,Sample feedback report #351 regarding city services,3,73.8,20,False
+352,2023-04-07,Water Infrastructure,Low,In Progress,Sample feedback report #352 regarding city services,3,25.1,10,False
+353,2023-02-28,Environmental Issues,High,In Progress,Sample feedback report #353 regarding city services,5,7.0,17,True
+354,2023-12-17,Road Maintenance,High,Resolved,Sample feedback report #354 regarding city services,2,4.5,4,False
+355,2023-08-16,Public Safety,Low,Resolved,Sample feedback report #355 regarding city services,2,48.8,14,False
+356,2023-02-03,Traffic Management,High,Resolved,Sample feedback report #356 regarding city services,4,21.2,17,False
+357,2023-03-22,Public Transport,Medium,In Progress,Sample feedback report #357 regarding city services,2,4.5,7,False
+358,2023-06-20,Waste Management,Medium,Submitted,Sample feedback report #358 regarding city services,5,6.7,11,False
+359,2023-07-11,Water Infrastructure,Medium,In Progress,Sample feedback report #359 regarding city services,2,6.4,3,False
+360,2023-06-01,Traffic Management,High,In Progress,Sample feedback report #360 regarding city services,5,45.8,4,False
+361,2023-05-11,Energy & Utilities,Low,Resolved,Sample feedback report #361 regarding city services,2,60.8,12,False
+362,2023-12-26,Traffic Management,High,Closed,Sample feedback report #362 regarding city services,2,14.6,4,True
+363,2023-12-18,Parks & Recreation,Low,In Progress,Sample feedback report #363 regarding city services,2,34.5,5,False
+364,2023-01-25,Traffic Management,Medium,Under Review,Sample feedback report #364 regarding city services,4,1.3,13,False
+365,2023-02-24,Water Infrastructure,High,Resolved,Sample feedback report #365 regarding city services,5,5.4,15,False
+366,2023-09-15,Public Transport,High,Resolved,Sample feedback report #366 regarding city services,1,17.8,16,True
+367,2023-01-13,Environmental Issues,High,Resolved,Sample feedback report #367 regarding city services,3,11.2,11,False
+368,2023-03-20,Public Transport,Low,Closed,Sample feedback report #368 regarding city services,5,31.1,15,True
+369,2023-08-20,Road Maintenance,Low,Resolved,Sample feedback report #369 regarding city services,1,5.8,13,True
+370,2023-09-14,Energy & Utilities,Medium,Resolved,Sample feedback report #370 regarding city services,4,29.7,9,False
+371,2023-02-03,Public Transport,Low,Resolved,Sample feedback report #371 regarding city services,2,12.8,14,False
+372,2023-04-17,Public Safety,Medium,Submitted,Sample feedback report #372 regarding city services,3,10.8,14,False
+373,2023-01-31,Environmental Issues,Medium,Resolved,Sample feedback report #373 regarding city services,4,21.0,20,True
+374,2023-03-15,Community Services,Low,In Progress,Sample feedback report #374 regarding city services,2,8.1,18,False
+375,2023-07-28,Water Infrastructure,High,Resolved,Sample feedback report #375 regarding city services,4,18.5,16,False
+376,2023-05-16,Traffic Management,High,Resolved,Sample feedback report #376 regarding city services,2,56.7,5,False
+377,2023-04-15,Water Infrastructure,Medium,Resolved,Sample feedback report #377 regarding city services,4,17.7,14,False
+378,2023-05-24,Energy & Utilities,High,Resolved,Sample feedback report #378 regarding city services,2,17.2,16,False
+379,2023-12-02,Community Services,Low,Resolved,Sample feedback report #379 regarding city services,4,55.0,11,False
+380,2023-05-12,Environmental Issues,Low,Resolved,Sample feedback report #380 regarding city services,5,5.4,9,False
+381,2023-04-27,Energy & Utilities,Low,Under Review,Sample feedback report #381 regarding city services,5,39.4,8,False
+382,2023-07-28,Water Infrastructure,High,Submitted,Sample feedback report #382 regarding city services,1,42.8,14,False
+383,2023-08-31,Water Infrastructure,Medium,In Progress,Sample feedback report #383 regarding city services,1,9.0,2,False
+384,2023-11-15,Water Infrastructure,Medium,Resolved,Sample feedback report #384 regarding city services,5,26.4,7,False
+385,2023-02-16,Traffic Management,Medium,Resolved,Sample feedback report #385 regarding city services,1,13.6,16,False
+386,2023-07-10,Public Transport,High,Resolved,Sample feedback report #386 regarding city services,3,33.9,16,False
+387,2023-11-18,Public Transport,Medium,In Progress,Sample feedback report #387 regarding city services,4,10.0,15,False
+388,2023-01-31,Parks & Recreation,Low,Resolved,Sample feedback report #388 regarding city services,2,10.8,6,False
+389,2023-03-18,Road Maintenance,Medium,In Progress,Sample feedback report #389 regarding city services,2,27.5,13,False
+390,2023-05-07,Energy & Utilities,High,Resolved,Sample feedback report #390 regarding city services,4,26.2,11,True
+391,2023-05-08,Public Transport,High,In Progress,Sample feedback report #391 regarding city services,3,26.0,10,False
+392,2023-04-08,Water Infrastructure,Medium,Closed,Sample feedback report #392 regarding city services,3,92.8,20,True
+393,2023-07-20,Waste Management,Medium,Under Review,Sample feedback report #393 regarding city services,4,11.0,11,False
+394,2023-01-27,Energy & Utilities,Medium,Submitted,Sample feedback report #394 regarding city services,2,70.9,10,True
+395,2023-09-04,Environmental Issues,Critical,Resolved,Sample feedback report #395 regarding city services,2,2.1,18,False
+396,2023-09-28,Water Infrastructure,High,Under Review,Sample feedback report #396 regarding city services,3,16.5,4,False
+397,2023-04-13,Public Safety,Medium,Resolved,Sample feedback report #397 regarding city services,4,28.9,12,False
+398,2023-12-05,Public Safety,Low,Resolved,Sample feedback report #398 regarding city services,2,66.5,9,True
+399,2023-09-04,Public Safety,Low,Resolved,Sample feedback report #399 regarding city services,4,10.5,2,False
+400,2023-07-25,Energy & Utilities,Low,In Progress,Sample feedback report #400 regarding city services,5,53.0,17,True
+401,2023-10-18,Waste Management,Medium,Submitted,Sample feedback report #401 regarding city services,4,44.8,16,False
+402,2023-05-31,Waste Management,Low,Resolved,Sample feedback report #402 regarding city services,3,27.2,1,False
+403,2023-01-31,Community Services,Low,Closed,Sample feedback report #403 regarding city services,4,40.6,14,False
+404,2023-06-10,Public Transport,Low,In Progress,Sample feedback report #404 regarding city services,2,26.7,6,True
+405,2023-04-29,Waste Management,Low,Resolved,Sample feedback report #405 regarding city services,5,15.2,20,False
+406,2023-12-19,Road Maintenance,Medium,Resolved,Sample feedback report #406 regarding city services,5,26.0,10,False
+407,2023-05-15,Environmental Issues,High,Resolved,Sample feedback report #407 regarding city services,1,42.9,18,False
+408,2023-08-09,Community Services,Medium,Under Review,Sample feedback report #408 regarding city services,3,34.3,4,False
+409,2023-04-19,Water Infrastructure,Low,In Progress,Sample feedback report #409 regarding city services,4,25.0,8,True
+410,2023-10-29,Environmental Issues,Medium,Under Review,Sample feedback report #410 regarding city services,5,15.2,10,False
+411,2023-05-06,Road Maintenance,Medium,Under Review,Sample feedback report #411 regarding city services,4,1.0,12,False
+412,2023-07-08,Parks & Recreation,High,Under Review,Sample feedback report #412 regarding city services,4,1.1,3,False
+413,2023-04-26,Energy & Utilities,High,Resolved,Sample feedback report #413 regarding city services,5,59.5,16,True
+414,2023-10-25,Community Services,High,Resolved,Sample feedback report #414 regarding city services,5,26.4,4,True
+415,2023-01-28,Energy & Utilities,Critical,Submitted,Sample feedback report #415 regarding city services,3,78.7,17,False
+416,2023-03-28,Road Maintenance,Medium,In Progress,Sample feedback report #416 regarding city services,2,23.9,17,True
+417,2023-04-19,Waste Management,Medium,Under Review,Sample feedback report #417 regarding city services,3,1.0,2,False
+418,2023-06-19,Public Safety,Medium,Under Review,Sample feedback report #418 regarding city services,3,25.3,20,True
+419,2023-04-04,Community Services,Medium,In Progress,Sample feedback report #419 regarding city services,5,6.0,20,False
+420,2023-10-07,Parks & Recreation,Medium,In Progress,Sample feedback report #420 regarding city services,3,9.6,20,False
+421,2023-07-10,Energy & Utilities,Low,Resolved,Sample feedback report #421 regarding city services,1,5.6,5,False
+422,2023-05-30,Environmental Issues,Low,Submitted,Sample feedback report #422 regarding city services,3,56.8,6,False
+423,2023-11-22,Energy & Utilities,Low,Submitted,Sample feedback report #423 regarding city services,3,14.6,15,False
+424,2023-02-09,Public Transport,Low,In Progress,Sample feedback report #424 regarding city services,3,22.9,15,True
+425,2023-01-17,Community Services,Medium,Submitted,Sample feedback report #425 regarding city services,2,59.2,10,True
+426,2023-12-24,Public Safety,High,In Progress,Sample feedback report #426 regarding city services,3,13.6,11,True
+427,2023-05-14,Parks & Recreation,Low,Resolved,Sample feedback report #427 regarding city services,3,23.6,19,False
+428,2023-05-08,Parks & Recreation,Critical,Resolved,Sample feedback report #428 regarding city services,4,6.0,15,True
+429,2023-06-12,Road Maintenance,Low,In Progress,Sample feedback report #429 regarding city services,3,5.3,17,False
+430,2023-11-23,Energy & Utilities,Low,Under Review,Sample feedback report #430 regarding city services,2,1.0,18,False
+431,2023-05-26,Water Infrastructure,Medium,Resolved,Sample feedback report #431 regarding city services,1,17.3,1,False
+432,2023-02-27,Water Infrastructure,High,In Progress,Sample feedback report #432 regarding city services,4,1.0,19,True
+433,2023-06-27,Community Services,High,Under Review,Sample feedback report #433 regarding city services,3,10.5,12,False
+434,2023-01-30,Traffic Management,Low,Resolved,Sample feedback report #434 regarding city services,2,20.2,11,False
+435,2023-07-13,Energy & Utilities,Low,Resolved,Sample feedback report #435 regarding city services,5,31.3,15,True
+436,2023-09-29,Public Safety,Low,In Progress,Sample feedback report #436 regarding city services,4,35.9,18,False
+437,2023-12-16,Environmental Issues,Low,Under Review,Sample feedback report #437 regarding city services,3,22.4,19,False
+438,2023-03-30,Traffic Management,Low,Under Review,Sample feedback report #438 regarding city services,2,31.7,3,True
+439,2023-04-06,Traffic Management,Medium,Resolved,Sample feedback report #439 regarding city services,4,33.4,11,False
+440,2023-11-13,Public Safety,Low,Resolved,Sample feedback report #440 regarding city services,4,108.9,16,False
+441,2023-09-16,Waste Management,Medium,Under Review,Sample feedback report #441 regarding city services,3,4.8,7,True
+442,2023-10-25,Environmental Issues,Low,Under Review,Sample feedback report #442 regarding city services,4,7.4,20,False
+443,2023-02-23,Waste Management,Low,Resolved,Sample feedback report #443 regarding city services,2,22.9,18,True
+444,2023-01-16,Waste Management,Medium,Resolved,Sample feedback report #444 regarding city services,4,1.0,10,False
+445,2023-07-24,Water Infrastructure,Medium,Resolved,Sample feedback report #445 regarding city services,2,2.3,10,True
+446,2023-04-17,Public Safety,High,Under Review,Sample feedback report #446 regarding city services,1,12.1,5,False
+447,2023-02-13,Public Transport,Medium,Resolved,Sample feedback report #447 regarding city services,1,21.1,7,False
+448,2023-03-08,Community Services,Low,Resolved,Sample feedback report #448 regarding city services,5,1.0,8,False
+449,2023-11-07,Parks & Recreation,Medium,Under Review,Sample feedback report #449 regarding city services,3,7.5,10,True
+450,2023-01-23,Energy & Utilities,High,In Progress,Sample feedback report #450 regarding city services,5,7.3,10,True
+451,2023-10-29,Environmental Issues,Medium,Resolved,Sample feedback report #451 regarding city services,1,27.9,5,False
+452,2023-10-27,Waste Management,Medium,Resolved,Sample feedback report #452 regarding city services,2,36.5,4,False
+453,2023-02-21,Public Safety,Low,Under Review,Sample feedback report #453 regarding city services,2,41.0,16,False
+454,2023-03-22,Energy & Utilities,Medium,In Progress,Sample feedback report #454 regarding city services,5,5.1,3,False
+455,2023-12-15,Water Infrastructure,Low,Resolved,Sample feedback report #455 regarding city services,1,5.5,1,False
+456,2023-04-13,Traffic Management,High,Under Review,Sample feedback report #456 regarding city services,5,80.9,16,True
+457,2023-03-27,Road Maintenance,Low,Resolved,Sample feedback report #457 regarding city services,5,35.5,20,False
+458,2023-09-20,Water Infrastructure,Low,Resolved,Sample feedback report #458 regarding city services,2,50.6,19,False
+459,2023-12-08,Water Infrastructure,Low,Resolved,Sample feedback report #459 regarding city services,4,94.4,18,True
+460,2023-02-20,Road Maintenance,Medium,Submitted,Sample feedback report #460 regarding city services,3,51.5,12,False
+461,2023-12-30,Road Maintenance,Low,In Progress,Sample feedback report #461 regarding city services,3,19.5,12,False
+462,2023-06-25,Energy & Utilities,Low,Resolved,Sample feedback report #462 regarding city services,4,61.2,10,True
+463,2023-05-20,Public Safety,Medium,In Progress,Sample feedback report #463 regarding city services,2,1.0,12,True
+464,2023-10-02,Public Transport,Medium,In Progress,Sample feedback report #464 regarding city services,2,1.0,11,True
+465,2023-04-06,Public Safety,Medium,Closed,Sample feedback report #465 regarding city services,1,28.4,18,False
+466,2023-12-09,Road Maintenance,Low,Resolved,Sample feedback report #466 regarding city services,4,14.4,7,False
+467,2023-03-02,Public Transport,Low,Resolved,Sample feedback report #467 regarding city services,2,9.2,10,False
+468,2023-06-02,Energy & Utilities,Low,Under Review,Sample feedback report #468 regarding city services,4,16.7,16,True
+469,2023-07-31,Road Maintenance,Low,Closed,Sample feedback report #469 regarding city services,3,98.5,6,False
+470,2023-06-23,Environmental Issues,Low,In Progress,Sample feedback report #470 regarding city services,2,52.9,20,False
+471,2023-10-30,Public Safety,High,Resolved,Sample feedback report #471 regarding city services,2,9.7,9,False
+472,2023-09-29,Parks & Recreation,High,Submitted,Sample feedback report #472 regarding city services,4,2.2,8,False
+473,2023-06-13,Public Safety,Low,Resolved,Sample feedback report #473 regarding city services,1,22.3,11,False
+474,2023-06-22,Water Infrastructure,Low,Closed,Sample feedback report #474 regarding city services,1,22.6,14,False
+475,2023-05-23,Road Maintenance,Low,In Progress,Sample feedback report #475 regarding city services,5,1.9,5,True
+476,2023-04-27,Traffic Management,Medium,Under Review,Sample feedback report #476 regarding city services,3,64.7,18,False
+477,2023-02-15,Community Services,Low,In Progress,Sample feedback report #477 regarding city services,4,19.4,17,False
+478,2023-04-01,Energy & Utilities,High,Resolved,Sample feedback report #478 regarding city services,1,12.0,17,False
+479,2023-07-09,Waste Management,High,In Progress,Sample feedback report #479 regarding city services,1,72.9,15,False
+480,2023-07-27,Parks & Recreation,Critical,Under Review,Sample feedback report #480 regarding city services,2,23.2,5,False
+481,2023-04-07,Energy & Utilities,Low,Resolved,Sample feedback report #481 regarding city services,2,31.8,10,True
+482,2023-09-24,Community Services,Low,Resolved,Sample feedback report #482 regarding city services,3,18.0,16,False
+483,2023-01-05,Road Maintenance,Medium,In Progress,Sample feedback report #483 regarding city services,4,55.0,9,False
+484,2023-03-24,Road Maintenance,Critical,Resolved,Sample feedback report #484 regarding city services,4,3.2,10,False
+485,2023-09-23,Community Services,Medium,Closed,Sample feedback report #485 regarding city services,2,11.0,9,False
+486,2023-05-23,Energy & Utilities,Low,Resolved,Sample feedback report #486 regarding city services,3,70.6,16,True
+487,2023-08-21,Community Services,Low,Resolved,Sample feedback report #487 regarding city services,4,1.0,4,True
+488,2023-05-30,Waste Management,High,In Progress,Sample feedback report #488 regarding city services,1,29.4,18,False
+489,2023-11-28,Environmental Issues,Low,Under Review,Sample feedback report #489 regarding city services,4,20.8,3,True
+490,2023-12-26,Public Safety,High,Under Review,Sample feedback report #490 regarding city services,1,22.5,13,False
+491,2023-04-01,Community Services,Medium,Resolved,Sample feedback report #491 regarding city services,5,22.5,10,False
+492,2023-09-19,Public Transport,Low,Resolved,Sample feedback report #492 regarding city services,4,19.5,20,False
+493,2023-01-16,Parks & Recreation,Medium,In Progress,Sample feedback report #493 regarding city services,5,14.6,18,False
+494,2023-05-18,Traffic Management,Low,Resolved,Sample feedback report #494 regarding city services,5,10.8,2,False
+495,2023-03-24,Public Transport,High,In Progress,Sample feedback report #495 regarding city services,1,20.1,18,True
+496,2023-12-18,Community Services,Critical,Submitted,Sample feedback report #496 regarding city services,4,2.0,18,True
+497,2023-12-21,Road Maintenance,Low,Resolved,Sample feedback report #497 regarding city services,2,25.2,20,False
+498,2023-07-22,Environmental Issues,Medium,Submitted,Sample feedback report #498 regarding city services,5,39.9,1,False
+499,2023-04-02,Energy & Utilities,Medium,Submitted,Sample feedback report #499 regarding city services,3,7.9,1,False
+500,2023-03-10,Traffic Management,Low,Resolved,Sample feedback report #500 regarding city services,4,71.9,20,False

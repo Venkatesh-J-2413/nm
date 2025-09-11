@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sustainable Smart City Assistant</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="app-container">
+        <!-- Sidebar Navigation -->
+        <nav class="sidebar">
+            <div class="sidebar-header">
+                <div class="logo">
+                    <i class="fas fa-city"></i>
+                    <h2>Smart City</h2>
+                </div>
+            </div>
+            <ul class="sidebar-menu">
+                <li><a href="#" data-module="dashboard" class="menu-item active">
+                    <i class="fas fa-tachometer-alt"></i>
+                    <span>Dashboard</span>
+                </a></li>
+                <li><a href="#" data-module="health" class="menu-item">
+                    <i class="fas fa-leaf"></i>
+                    <span>City Health</span>
+                </a></li>
+                <li><a href="#" data-module="feedback" class="menu-item">
+                    <i class="fas fa-comments"></i>
+                    <span>Citizen Feedback</span>
+                </a></li>
+                <li><a href="#" data-module="documents" class="menu-item">
+                    <i class="fas fa-file-alt"></i>
+                    <span>Documents</span>
+                </a></li>
+                <li><a href="#" data-module="eco-advice" class="menu-item">
+                    <i class="fas fa-lightbulb"></i>
+                    <span>Eco Advice</span>
+                </a></li>
+                <li><a href="#" data-module="anomaly" class="menu-item">
+                    <i class="fas fa-exclamation-triangle"></i>
+                    <span>Anomaly Detection</span>
+                </a></li>
+                <li><a href="#" data-module="forecasting" class="menu-item">
+                    <i class="fas fa-chart-line"></i>
+                    <span>KPI Forecasting</span>
+                </a></li>
+                <li><a href="#" data-module="chat" class="menu-item">
+                    <i class="fas fa-robot"></i>
+                    <span>AI Assistant</span>
+                </a></li>
+            </ul>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <header class="header">
+                <div class="header-left">
+                    <h1 id="page-title">City Dashboard</h1>
+                    <div class="breadcrumb">
+                        <span id="current-time"></span>
+                    </div>
+                </div>
+                <div class="header-right">
+                    <div class="weather-info">
+                        <i class="fas fa-cloud-sun"></i>
+                        <span>22°C - Partly Cloudy</span>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Dashboard Module -->
+            <div id="dashboard-module" class="module active">
+                <div class="metrics-grid">
+                    <div class="metric-card">
+                        <div class="metric-icon">
+                            <i class="fas fa-wind"></i>
+                        </div>
+                        <div class="metric-content">
+                            <h3>Air Quality</h3>
+                            <div class="metric-value">50.7 <span>AQI</span></div>
+                            <div class="status status--warning">Moderate</div>
+                        </div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-icon">
+                            <i class="fas fa-bolt"></i>
+                        </div>
+                        <div class="metric-content">
+                            <h3>Energy Consumption</h3>
+                            <div class="metric-value">3,218 <span>MWh</span></div>
+                            <div class="status status--success">Normal</div>
+                        </div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-icon">
+                            <i class="fas fa-tint"></i>
+                        </div>
+                        <div class="metric-content">
+                            <h3>Water Usage</h3>
+                            <div class="metric-value">14,896 <span>Gallons</span></div>
+                            <div class="status status--success">Normal</div>
+                        </div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-icon">
+                            <i class="fas fa-car"></i>
+                        </div>
+                        <div class="metric-content">
+                            <h3>Traffic Volume</h3>
+                            <div class="metric-value">7,934 <span>Vehicles</span></div>
+                            <div class="status status--success">Normal</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dashboard-content">
+                    <div class="chart-container">
+                        <div class="card">
+                            <div class="card__header">
+                                <h3>Air Quality Trend</h3>
+                            </div>
+                            <div class="card__body">
+                                <div class="chart-wrapper" style="position: relative; height: 300px;">
+                                    <canvas id="airQualityChart"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="alerts-panel">
+                        <div class="card">
+                            <div class="card__header">
+                                <h3>Recent Alerts</h3>
+                            </div>
+                            <div class="card__body">
+                                <div class="alert-list" id="alert-list">
+                                    <!-- Alerts will be populated by JavaScript -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- City Health Module -->
+            <div id="health-module" class="module">
+                <div class="health-metrics">
+                    <div class="metric-card">
+                        <h4>PM2.5 Levels</h4>
+                        <div class="metric-value">18.2 <span>μg/m³</span></div>
+                        <div class="status status--warning">Moderate</div>
+                    </div>
+                    <div class="metric-card">
+                        <h4>CO2 Levels</h4>
+                        <div class="metric-value">422.3 <span>ppm</span></div>
+                        <div class="status status--success">Good</div>
+                    </div>
+                    <div class="metric-card">
+                        <h4>Noise Level</h4>
+                        <div class="metric-value">65.4 <span>dB</span></div>
+                        <div class="status status--warning">Moderate</div>
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="card">
+                        <div class="card__header">
+                            <h3>Environmental Trends</h3>
+                        </div>
+                        <div class="card__body">
+                            <div class="chart-wrapper" style="position: relative; height: 400px;">
+                                <canvas id="environmentalChart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Citizen Feedback Module -->
+            <div id="feedback-module" class="module">
+                <div class="feedback-header">
+                    <button class="btn btn--primary" id="new-feedback-btn">
+                        <i class="fas fa-plus"></i> Submit New Feedback
+                    </button>
+                </div>
+                
+                <div class="feedback-stats">
+                    <div class="stat-card">
+                        <h4>Total Reports</h4>
+                        <div class="stat-value">162</div>
+                    </div>
+                    <div class="stat-card">
+                        <h4>Resolved</h4>
+                        <div class="stat-value">148</div>
+                    </div>
+                    <div class="stat-card">
+                        <h4>In Progress</h4>
+                        <div class="stat-value">12</div>
+                    </div>
+                    <div class="stat-card">
+                        <h4>Under Review</h4>
+                        <div class="stat-value">2</div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__header">
+                        <h3>Recent Feedback</h3>
+                    </div>
+                    <div class="card__body">
+                        <div class="feedback-table">
+                            <table id="feedback-table">
+                                <thead>
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>Category</th>
+                                        <th>Priority</th>
+                                        <th>Status</th>
+                                        <th>Date</th>
+                                        <th>Satisfaction</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <!-- Table content will be populated by JavaScript -->
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Document Summarization Module -->
+            <div id="documents-module" class="module">
+                <div class="document-upload">
+                    <div class="card">
+                        <div class="card__header">
+                            <h3>Upload Policy Document</h3>
+                        </div>
+                        <div class="card__body">
+                            <div class="upload-area" id="upload-area">
+                                <i class="fas fa-cloud-upload-alt"></i>
+                                <p>Drop your document here or click to browse</p>
+                                <input type="file" id="file-input" accept=".pdf,.doc,.docx" hidden>
+                                <button class="btn btn--outline" id="browse-btn">Browse Files</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__header">
+                        <h3>Policy Documents Library</h3>
+                    </div>
+                    <div class="card__body">
+                        <div class="documents-list" id="documents-list">
+                            <!-- Documents will be populated by JavaScript -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Eco Advice Module -->
+            <div id="eco-advice-module" class="module">
+                <div class="advice-categories">
+                    <button class="category-btn active" data-category="all">All</button>
+                    <button class="category-btn" data-category="energy">Energy</button>
+                    <button class="category-btn" data-category="water">Water</button>
+                    <button class="category-btn" data-category="transportation">Transportation</button>
+                    <button class="category-btn" data-category="waste">Waste</button>
+                </div>
+
+                <div class="advice-grid" id="advice-grid">
+                    <!-- Advice cards will be populated by JavaScript -->
+                </div>
+            </div>
+
+            <!-- Anomaly Detection Module -->
+            <div id="anomaly-module" class="module">
+                <div class="anomaly-summary">
+                    <div class="summary-card critical">
+                        <h4>Critical</h4>
+                        <div class="count">2</div>
+                    </div>
+                    <div class="summary-card high">
+                        <h4>High</h4>
+                        <div class="count">5</div>
+                    </div>
+                    <div class="summary-card medium">
+                        <h4>Medium</h4>
+                        <div class="count">23</div>
+                    </div>
+                    <div class="summary-card low">
+                        <h4>Low</h4>
+                        <div class="count">28</div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__header">
+                        <h3>Recent Anomalies</h3>
+                    </div>
+                    <div class="card__body">
+                        <div class="anomaly-list" id="anomaly-list">
+                            <!-- Anomalies will be populated by JavaScript -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- KPI Forecasting Module -->
+            <div id="forecasting-module" class="module">
+                <div class="forecast-upload">
+                    <div class="card">
+                        <div class="card__header">
+                            <h3>Upload Data for Forecasting</h3>
+                        </div>
+                        <div class="card__body">
+                            <div class="upload-area" id="forecast-upload-area">
+                                <i class="fas fa-file-csv"></i>
+                                <p>Upload CSV data for predictive analysis</p>
+                                <input type="file" id="csv-input" accept=".csv" hidden>
+                                <button class="btn btn--outline" id="csv-browse-btn">Browse CSV Files</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="forecast-charts">
+                    <div class="card">
+                        <div class="card__header">
+                            <h3>Water Usage Forecast</h3>
+                        </div>
+                        <div class="card__body">
+                            <div class="chart-wrapper" style="position: relative; height: 300px;">
+                                <canvas id="waterForecastChart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card">
+                        <div class="card__header">
+                            <h3>Energy Consumption Forecast</h3>
+                        </div>
+                        <div class="card__body">
+                            <div class="chart-wrapper" style="position: relative; height: 300px;">
+                                <canvas id="energyForecastChart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Chat Assistant Module -->
+            <div id="chat-module" class="module">
+                <div class="chat-container">
+                    <div class="chat-header">
+                        <h3><i class="fas fa-robot"></i> AI Assistant</h3>
+                        <span class="status-indicator online">Online</span>
+                    </div>
+                    
+                    <div class="chat-messages" id="chat-messages">
+                        <div class="message bot-message">
+                            <div class="message-avatar">
+                                <i class="fas fa-robot"></i>
+                            </div>
+                            <div class="message-content">
+                                Hello! I'm your Smart City Assistant. I can help you with city services, policy information, and answer questions about your city's operations. How can I assist you today?
+                            </div>
+                            <div class="message-time">Now</div>
+                        </div>
+                    </div>
+                    
+                    <div class="chat-input-container">
+                        <div class="quick-actions">
+                            <button class="quick-btn" data-message="What's the current air quality?">Air Quality</button>
+                            <button class="quick-btn" data-message="Show me recent citizen feedback">Feedback</button>
+                            <button class="quick-btn" data-message="What anomalies are currently detected?">Anomalies</button>
+                        </div>
+                        <div class="chat-input">
+                            <input type="text" id="chat-input" placeholder="Type your message...">
+                            <button id="send-btn" class="btn btn--primary">
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Modal for New Feedback -->
+    <div id="feedback-modal" class="modal hidden">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Submit New Feedback</h3>
+                <button class="modal-close" id="close-feedback-modal">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form id="feedback-form">
+                    <div class="form-group">
+                        <label class="form-label">Category</label>
+                        <select class="form-control" id="feedback-category" required>
+                            <option value="">Select Category</option>
+                            <option value="Water Infrastructure">Water Infrastructure</option>
+                            <option value="Traffic Management">Traffic Management</option>
+                            <option value="Parks & Recreation">Parks & Recreation</option>
+                            <option value="Public Safety">Public Safety</option>
+                            <option value="Waste Management">Waste Management</option>
+                            <option value="Energy & Utilities">Energy & Utilities</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Priority</label>
+                        <select class="form-control" id="feedback-priority" required>
+                            <option value="">Select Priority</option>
+                            <option value="Low">Low</option>
+                            <option value="Medium">Medium</option>
+                            <option value="High">High</option>
+                            <option value="Critical">Critical</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Description</label>
+                        <textarea class="form-control" id="feedback-description" rows="4" placeholder="Describe the issue or feedback..." required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Location (Optional)</label>
+                        <input type="text" class="form-control" id="feedback-location" placeholder="Enter location or address">
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn--outline" id="cancel-feedback">Cancel</button>
+                <button type="submit" form="feedback-form" class="btn btn--primary">Submit Feedback</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
